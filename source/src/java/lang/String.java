@@ -106,7 +106,7 @@ import java.util.stream.StreamSupport;
  * String由一系列Unicode符号组成，根据这些符号的Unicode编码范围[0x0, 0x10FFFF]，将其分为两类：
  *   符号1. 在[0x0, 0xFF]范围内的符号（属于LATIN1/ISO_8859_1字符集范围）
  *   符号2. 在其他范围内的Unicode符号
- * 对于第一类符号，其二进制形式仅用一个byte即可容纳，对于第二类符号，其二进制形式需用两个或四个UTF-16形式的byte存储。
+ * 对于第一类符号，其二进制形式仅用一个byte即可容纳（8位），对于第二类符号，其二进制形式需用两个或四个UTF-16形式的byte存储。
  *
  * 由此，JDK内部将String的存储方式也分为两类：
  *   第一类：String只包含符号1。这种类型的String里，每个符号使用一个byte存储。coder==LATIN1
@@ -187,7 +187,7 @@ public final class String implements Serializable, Comparable<String>, CharSeque
     static final boolean COMPACT_STRINGS;
     
     /*
-     * Latin1是ISO-8859-1的别名，有些环境下写作Latin-1。ISO-8859-1编码是单字节编码，向下兼容ASCII。
+     * Latin1是ISO-8859-1的别名，有些环境下写作Latin-1。ISO-8859-1编码是单字节编码，向下兼容ASCII。一个byte就可存储
      * 其编码范围是0x00-0xFF，0x00-0x7F之间完全和ASCII一致，0x80-0x9F之间是控制字符，0xA0-0xFF之间是文字符号。
      */
     @Native
@@ -1002,6 +1002,7 @@ public final class String implements Serializable, Comparable<String>, CharSeque
      * @param data the character array.
      *
      * @return a {@code String} that contains the characters of the character array.
+     * 等价于 valueOf(char data[])
      */
     public static String copyValueOf(char data[]) {
         return new String(data);
@@ -1018,6 +1019,8 @@ public final class String implements Serializable, Comparable<String>, CharSeque
      *
      * @throws IndexOutOfBoundsException if {@code offset} is negative,
      *                                   or {@code count} is negative, or {@code offset+count} is larger than {@code data.length}.
+     *
+     * 等价于 valueOf(char[], int, int)
      */
     public static String copyValueOf(char data[], int offset, int count) {
         return new String(data, offset, count);

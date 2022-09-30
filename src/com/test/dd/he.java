@@ -1,7 +1,11 @@
 package com.test.dd;
 
+import java.util.Arrays;
+
 public class he {
     public static void main(String[] args) {
-        System.out.println(1);
+        Object a = new Object();
+        System.identityHashCode(a);
+        StringUTF16
     }
 }

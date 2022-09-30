@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e954e3d-531d-43a0-8da0-0929792078fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/dd/he.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/dd/he.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/source/src/java/lang/Object.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/src/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -28,24 +31,28 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2EwQgxhBJeYh4lluh1l29osRzdZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/src" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/LearningJDK/source/src",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaProjects\JDKLearning\src\com" />
@@ -85,6 +92,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,56 +104,24 @@
       <option name="presentableId" value="Default" />
       <updated>1663504282360</updated>
       <workItem from="1663504285737" duration="2900000" />
+      <workItem from="1664537284222" duration="47000" />
+      <workItem from="1664538602009" duration="408000" />
+      <workItem from="1664539023732" duration="3339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1663505519706">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1663505519706" />
-    <state x="570" y="167" key="FileChooserDialogImpl" timestamp="1663504817678">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="570" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1663504817678" />
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom" timestamp="1663507200373">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1663507200373" />
-    <state width="1493" height="150" key="GridCell.Tab.0.center" timestamp="1663507200373">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1663507200373" />
-    <state width="1493" height="150" key="GridCell.Tab.0.left" timestamp="1663507200373">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1663507200373" />
-    <state width="1493" height="150" key="GridCell.Tab.0.right" timestamp="1663507200373">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1663507200373" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1663506015157">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1663506015157" />
-    <state x="524" y="256" key="cloudConfig.PluginsDialog" timestamp="1663505810041">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="524" y="256" key="cloudConfig.PluginsDialog/0.0.1536.824@0.0.1536.824" timestamp="1663505810041" />
-    <state x="524" y="256" key="cloudConfig.SelfSettingsDialog" timestamp="1663505800546">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="524" y="256" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1663505800546" />
-    <state x="377" y="112" width="782" height="600" key="find.popup" timestamp="1663505365766">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="377" y="112" width="782" height="600" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1663505365766" />
-    <state x="178" y="22" key="new project wizard" timestamp="1663504330706">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1663504330706" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

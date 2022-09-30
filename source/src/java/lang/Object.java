@@ -25,6 +25,8 @@
 
 package java.lang;
 
+// 被@HotSpotIntrinsicCandidate标注的方法，在HotSpot中都有一套高效的实现，该高效实现基于CPU指令
+// 运行时，HotSpot维护的高效实现会替代JDK的源码实现，从而获得更高的效率
 import jdk.internal.HotSpotIntrinsicCandidate;
 
 /**
@@ -163,7 +165,7 @@ public class Object {
      * @see #hashCode()
      * @see java.util.HashMap
      */
-    // 判等，默认的实现只是简单地比较两个对象的引用。更多判等操作可参考Arrays.equals方法
+    // 判等，默认的实现只是简单地比较两个对象的引用。更多判等操作由各个类自定义实现，可参考Arrays.equals方法
     public boolean equals(Object obj) {
         return (this == obj);
     }
@@ -189,7 +191,7 @@ public class Object {
      *
      * @return a string representation of the object.
      */
-    // 字符串化，往往需要重写
+    // 字符串化，默认返回类名和哈希值的16进制，往往需要重写
     public String toString() {
         return getClass().getName() + "@" + Integer.toHexString(hashCode());
     }
